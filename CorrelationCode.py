@@ -5,7 +5,7 @@ import pandas as pd
 import plotly.express as px
 import unittest
 import Testing
-from variables import video_gamer, violent_crimes
+from variables import video_gamer,violent_crimes
 from functions import PmCc,linear_regression
 
 x = video_gamer
