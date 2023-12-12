@@ -25,3 +25,4 @@ def linear_regression(x, y):
     m = sigmaxy/(sigmax*sigmax) 
     q = meany-m*meanx
     return m,q
+
