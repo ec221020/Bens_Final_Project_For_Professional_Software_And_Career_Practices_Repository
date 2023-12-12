@@ -9,7 +9,6 @@ def dataframe_to_dictionary(df):
         dictionary[header] = [data for data in df[header]]
     return dictionary
 
-
 class TestFunction1(unittest.TestCase):
 
 
@@ -63,7 +62,6 @@ class TestFunction1(unittest.TestCase):
 
         df = pd.read_excel("statistic_id300521_uk-gaming-reach-2007-2021.xlsx", "Data", header = 2)
         df.head()
-        print(df)
 
         y = dataframe_to_dictionary(df)
         video_gamer1 = y["Gamers"]
