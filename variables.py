@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 
+# Function to convert a pandas dataframe to a dictionary for easier data manipulation
 def dataframe_to_dictionary(df):
     dictionary = {}
     for header in df:
